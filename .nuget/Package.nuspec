@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SynapOCRActivities</id>
+    <version>1.0.0</version>
+    <authors>UiPath Korea</authors>
+    <owners>UiPath Korea</owners>
+    <!--
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UiPath Activity for Synap OCR Engine</description>
+    <releaseNotes>This activity requires Synap OCR Engine.
+    Please check Synap OCR Engine endpoint and apikey for use.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags></tags>
+    <dependencies>
+      <dependency id="UiPath.OCR.Contracts" version="2.7.3" />
+      <dependency id="UiPath.DocumentProcessing.Contracts" version="2.7.3" />
+    </dependencies>
+  </metadata>
+</package>
